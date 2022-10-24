@@ -1,58 +1,8 @@
 # Inventory-Management-System-C-
-Inventory Management System - A C# .NET Windows Forms GUI application - GUI, Input Validations with user feedback, Forms/Code reuse for similar functionalities, OOP, more.
-
-
-COMPETENCIES
-4041.3.1 : Classes and Interfaces
-
-The graduate designs software solutions with appropriate classes, objects, methods, and interfaces to achieve specific goals.
-
-4041.3.2 : Object-Oriented Principles
-
-The graduate implements object-oriented design principles (e.g., inheritance, encapsulation, and abstraction) in developing applications for ensuring the application’s scalability.
-
-4041.3.3 : Application Development
-
-The graduate produces applications using high-level programming language constructs to meet business requirements.
-
-4041.3.4 : Exception Handling
-
-The graduate incorporates simple exception handling in application development for improving user experience and application stability.
-
-4041.3.5 : User Interface Development
-
-The graduate develops user interfaces to meet project requirements.
-
-INTRODUCTION
-Throughout your career in software design and development, you will be asked to create applications with various features and functionality based on business requirements. When a new system is developed, typically the process begins with a business analyst gathering and writing these business requirements, with the assistance of subject matter experts from the business. Then a system analyst works with several application team members and others to formulate a solution based on the requirements. As a developer, you would then create a design document from the solution and finally develop the system based on your design document.
-
-For this assessment, you will create a C# application using the solution statements provided in the requirements section.
-
-The skills you showcase in your completed application will be useful in responding to technical interview questions for future employment. This application may also be added to your portfolio to show to future employers.
-
-Your submission should include a zip file with all the necessary code files to compile, support, and run your application.
-
-Note: The preferred integrated development environment (IDE) for this assignment is Visual Studio. Refer to your course of study for instructions on how to install and use this application. If you choose to use another IDE, you must export your project into Visual Studio format for submission.
-
-Your submission should include a zip file with all the necessary code files to compile, support, and run your application. The zip file submission must also keep the project file and folder structure intact for the Visual Studio IDE.
-SCENARIO
-You are working for a small manufacturing organization that has outgrown its current inventory system. They have been using a spreadsheet program to manually enter inventory additions, deletions, and other data from a paper-based system but would now like you to develop a more sophisticated inventory program.
-
-They have provided you with a mock-up of the user interface to use in the design and development of the system (see the attached “GUI Mock-Up”) and a class diagram to assist you in your work (see the attached “UML Class Diagram”). The organization also has specific business requirements that must be included as part of the application. A system analyst from your company created the solution statements outlined in the requirements section based on the manufacturing organization’s business requirements. You will use these solution statements to develop your application.
-REQUIREMENTS
-Your submission must be your original work. No more than a combined total of 30% of the submission and no more than a 10% match to any one individual source can be directly quoted or closely paraphrased from sources, even if cited correctly. An originality report is provided when you submit your task that can be used as a guide.
-
-
-
-You must use the rubric to direct the creation of your submission because it provides detailed criteria that will be used to evaluate your work. Each requirement below may be evaluated by more than one rubric aspect. The rubric aspect titles may contain hyperlinks to relevant portions of the course.
-
+Inventory Management System - A C# .NET Windows Forms GUI application.
 
 
 I. User Interface
-
-
-
-Create a C# application with a graphical user interface (GUI) based on the attached “GUI Mock-Up.” Write code to display each of the following forms in the GUI:
 
 
 
@@ -126,11 +76,7 @@ II. Application
 
 
 
-Now that you’ve created the GUI, write code to create the class structure provided in the attached “UML (unified modeling language) Class Diagram.” Enable each of the following capabilities in the application:
-
-
-
-F.  Using the attached “UML Class Diagram,” create appropriate classes and instance variables with the following criteria:
+F.  Structure
 
 •  five classes with the all associated properties
 
@@ -138,7 +84,7 @@ F.  Using the attached “UML Class Diagram,” create appropriate classes and i
 
 
 
-G.  Add the following functionalities to the main form, using the methods provided in the attached “UML Class Diagram”:
+G.  Main form:
 
 •  redirect the user to the “Add Part,” “Modify Part,” “Add Product,” or “Modify Product” forms
 
@@ -150,7 +96,7 @@ G.  Add the following functionalities to the main form, using the methods provid
 
 
 
-H.  Add the following functionalities to the part forms, using the methods provided in the attached “UML Class Diagram”:
+H.  Part forms:
 
 1.   “Add Part” form
 
@@ -174,7 +120,7 @@ H.  Add the following functionalities to the part forms, using the methods provi
 
 
 
-I.  Add the following functionalities to the product forms, using the methods provided in the attached “UML Class Diagram”:
+I.  Products Form:
 
 1.   “Add Product” form
 
@@ -202,7 +148,7 @@ I.  Add the following functionalities to the product forms, using the methods pr
 
 
 
-J.  Write code to address the following conditions with exception handling code:
+J.  Conditions with exception handling:
 
 •  Detect non-numeric values in textboxes that expect numeric values
 
